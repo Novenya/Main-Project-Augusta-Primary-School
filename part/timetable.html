@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TIME TABLE</title>
+    <link rel="stylesheet" href="timetable.css">
+    
+    <link rel="stylesheet" href="studash.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https:///ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+   </style>
+
+   
+ 
+    <title>TIME TABLE</title>
+</head>
+
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+          <img src="../images/logo.png">
+        </div>
+    
+            <ul >
+         <li><img src="images/dashboard (2).png" alt="">
+            <a href="studash.php"> <span > DASHBOARD</span> </a></li>
+
+            <li><img src="images/reading-book (1).png" alt="">
+            <a href="attendance.php"><span>ATTENDANCE</span> </a></li>
+
+            <li><img src="images/teacher2.png" alt="">
+            <a href="timetable.html"><span >TIMETABLE</span> </a></li>
+
+            <li><img src="images/school.png" alt="">
+            <a href="news/index.php"><span>NOTICE</span> </a></li>
+
+            <li><img src="images/payment.png" alt="">
+            <a href="../index.html"><span >LOGOUT</span></a> </li>
+        </ul>
+    </div>
+    
+
+
+
+<body style="background-color:white;">
+
+   <div class="arrow-btn">
+                <a href="#"><span class="fas fa-arrow-up"></span></a>
+   </div>
+   
+    
+    <section class="top">
+    <div style="margin-top: 20px;" class="links">
+      <a style="background:-webkit-linear-gradient(left,#55f1f1, #7d67d6);color: black;" href="#grade01">Grade 01</a>
+      <a style="background:-webkit-linear-gradient(left,#55f1f1, #7d67d6);color: black;" href="#grade02">Grade 02</a>
+      <a  style="background:-webkit-linear-gradient(left,#55f1f1, #7d67d6);color: black;" href="#grade03">Grade 03</a>
+      <a  style="background:-webkit-linear-gradient(left,#55f1f1, #7d67d6);color: black;"href="#grade04">Grade 04</a>
+      <a  style="background:-webkit-linear-gradient(left,#55f1f1, #7d67d6);color: black;"href="#grade05">Grade 05</a>
+    </div>
+    </section><br>
+
+    <section class="grade01" id="grade01">
+    <header>
+         <h1>Grade 01</h1>
+      </header>
+
+      <table style="overflow-x:auto;">
+         <thead>
+            <tr>
+               <td id="sub1">         </td>
+               <td id="sub">8:30-9:30</td>
+               <td id="sub">9:30-10:30</td>
+               <td id="sub">10:30-11:30</td>
+               <td id="sub">11:30-12:30</td>
+               <td id="sub">12:30-2:00</td>
+               <td id="sub">2:00-3:00</td>
+               <td id="sub">3:00-4:00</td>
+               <td id="sub">4:00-5:00</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td id="sub">MONDAY</td>
+               <td id="blank">---</td>
+               <td id="box1">MATHS</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box3">SINHALA</td>
+               <td rowspan="6">L<br>U<br>N<br>C<br>H
+               <td id="box4">PTS</td>
+               <td id="box5">ICT</td>
+               <td id="s">counselling class</td>
+            </tr>
+            <tr>
+               <td id="sub">TUESDAY</td>
+               <td id="box1">MATHS</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box3">SINHALA</td>
+               <td id="blank">---</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box2">ENGLISH</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">WEDNESDAY</td>
+               <td id="box1">MATHS</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box5">SWA</td>
+               <td id="blank">---</td>
+               <td colspan="3"id="sub3" >LAB</td>
+            </tr>
+            <tr>
+               <td id="sub">THURSDAY</td>
+               <td id="box1">MATHS</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box3">SINHALA</td>
+               <td id="blank">---</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box2">ENGLISH</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">FRIDAY</td>
+               <td id="box1">MATHS</td>
+               <td id="box2">ENGLISH</td>
+               <td id="box3">SINHALA</td>
+               <td id="blank">---</td>
+               <td id="box4">PTS</td>
+               <td id="box5">ICT</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">SATURDAY</td>
+               <td id="box1">SUB1</td>
+               <td colspan="3" id="seminar">seminar</td>
+               <td id="box4">PTS</td>
+               <td id="box5">ICT</td>
+               <td id="sub2">library</td>
+            </tr>
+         </tbody>
+      </table>
+</section><br><br>
+
+<section class="grade02" id="grade02">
+      <header>
+         <h1>Grade 02</h1>
+      </header>
+      <table>
+         <thead>
+            <tr>
+               <td id="sub1">         </td>
+               <td id="sub">8:30-9:30</td>
+               <td id="sub">9:30-10:30</td>
+               <td id="sub">10:30-11:30</td>
+               <td id="sub">11:30-12:30</td>
+               <td id="sub">12:30-2:00</td>
+               <td id="sub">2:00-3:00</td>
+               <td id="sub">3:00-4:00</td>
+               <td id="sub">4:00-5:00</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td id="sub">MONDAY</td>
+               <td id="blank">---</td>
+               <td id="box1">ENGLISH</td>
+               <td id="box2">SINHALA</td>
+               <td id="box3">PTS</td>
+               <td rowspan="6">L<br>U<br>N<br>C<br>H
+               <td id="box4">ICT</td>
+               <td id="box5">ICT</td>
+               <td id="s">counselling class</td>
+            </tr>
+            <tr>
+               <td id="sub">TUESDAY</td>
+               <td id="box1">ENGLISH</td>
+               <td id="box2">SINHALA</td>
+               <td id="box3">PTS</td>
+               <td id="blank">---</td>
+               <td id="box2">SINHALA</td>
+               <td id="box2">PTS</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">WEDNESDAY</td>
+               <td id="box1">ENGLISH</td>
+               <td id="box2">SINHALA</td>
+               <td id="box5">SWA</td>
+               <td id="blank">---</td>
+               <td colspan="3"id="sub3" >LAB</td>
+            </tr>
+            <tr>
+               <td id="sub">THURSDAY</td>
+               <td id="box1">ENGLISH</td>
+               <td id="box2">SINHALA</td>
+               <td id="box3">PTS</td>
+               <td id="blank">---</td>
+               <td id="box2">SINHALA</td>
+               <td id="box2">SINHALA</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">FRIDAY</td>
+               <td id="box1">ENGLISH</td>
+               <td id="box2">SINHALA</td>
+               <td id="box3">PTS</td>
+               <td id="blank">---</td>
+               <td id="box4">ICT</td>
+               <td id="box5">MATHS</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">SATURDAY</td>
+               <td id="box1">ENGLISH</td>
+               <td colspan="3" id="seminar">seminar</td>
+               <td id="box4">ICT</td>
+               <td id="box5">MATHS</td>
+               <td id="sub2">library</td>
+            </tr>
+         </tbody>
+      </table>
+</section><br><br>
+
+<section class="grade03" id="grade03">
+      <header>
+         <h1>Grade 03</h1>
+      </header>
+      <table>
+         <thead>
+            <tr>
+               <td id="sub1">         </td>
+               <td id="sub">8:30-9:30</td>
+               <td id="sub">9:30-10:30</td>
+               <td id="sub">10:30-11:30</td>
+               <td id="sub">11:30-12:30</td>
+               <td id="sub">12:30-2:00</td>
+               <td id="sub">2:00-3:00</td>
+               <td id="sub">3:00-4:00</td>
+               <td id="sub">4:00-5:00</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td id="sub">MONDAY</td>
+               <td id="blank">---</td>
+               <td id="box1">SINHALA</td>
+               <td id="box2">PTS</td>
+               <td id="box3">ICT</td>
+               <td rowspan="6">L<br>U<br>N<br>C<br>H
+               <td id="box4">MATHS</td>
+               <td id="box5">ENGLISH</td>
+               <td id="s">counselling class</td>
+            </tr>
+            <tr>
+               <td id="sub">TUESDAY</td>
+               <td id="box1">SINHALA</td>
+               <td id="box2">PTS</td>
+               <td id="box3">ICT</td>
+               <td id="blank">---</td>
+               <td id="box2">PTS</td>
+               <td id="box2">MATHS</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">WEDNESDAY</td>
+               <td id="box1">SINHALA</td>
+               <td id="box2">PTS</td>
+               <td id="box5">SWA</td>
+               <td id="blank">---</td>
+               <td colspan="3"id="sub3" >LAB</td>
+            </tr>
+            <tr>
+               <td id="sub">THURSDAY</td>
+               <td id="box1">SINHALA</td>
+               <td id="box2">PTS</td>
+               <td id="box3">ICT</td>
+               <td id="blank">---</td>
+               <td id="box2">PTS</td>
+               <td id="box2">PTS</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">FRIDAY</td>
+               <td id="box1">SINHALA</td>
+               <td id="box2">PTS</td>
+               <td id="box3">ICT</td>
+               <td id="blank">---</td>
+               <td id="box4">MATHS</td>
+               <td id="box5">ENGLISH</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">SATURDAY</td>
+               <td id="box1">SINHALA</td>
+               <td colspan="3" id="seminar">seminar</td>
+               <td id="box4">MATHS</td>
+               <td id="box5">ENGLISH</td>
+               <td id="sub2">library</td>
+            </tr>
+         </tbody>
+      </table>
+   </section><br><br>
+
+   <section class="grade04" id="grade04">
+      <header>
+         <h1>Grade 04</h1>
+      </header>
+      <table>
+         <thead>
+            <tr>
+               <td id="sub1">         </td>
+               <td id="sub">8:30-9:30</td>
+               <td id="sub">9:30-10:30</td>
+               <td id="sub">10:30-11:30</td>
+               <td id="sub">11:30-12:30</td>
+               <td id="sub">12:30-2:00</td>
+               <td id="sub">2:00-3:00</td>
+               <td id="sub">3:00-4:00</td>
+               <td id="sub">4:00-5:00</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td id="sub">MONDAY</td>
+               <td id="blank">---</td>
+               <td id="box1">PTS</td>
+               <td id="box2">ICT</td>
+               <td id="box3">MATHS</td>
+               <td rowspan="6">L<br>U<br>N<br>C<br>H
+               <td id="box4">ENGLISH</td>
+               <td id="box5">SINHALA</td>
+               <td id="s">counselling class</td>
+            </tr>
+            <tr>
+               <td id="sub">TUESDAY</td>
+               <td id="box1">PTS</td>
+               <td id="box2">ICT</td>
+               <td id="box3">MATHS</td>
+               <td id="blank">---</td>
+               <td id="box2">ICT</td>
+               <td id="box2">ICT</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">WEDNESDAY</td>
+               <td id="box1">PTS</td>
+               <td id="box2">ICT</td>
+               <td id="box5">SWA</td>
+               <td id="blank">---</td>
+               <td colspan="3"id="sub3" >LAB</td>
+            </tr>
+            <tr>
+               <td id="sub">THURSDAY</td>
+               <td id="box1">PTS</td>
+               <td id="box2">ICT</td>
+               <td id="box3">MATHS</td>
+               <td id="blank">---</td>
+               <td id="box2">ICT</td>
+               <td id="box2">ICT</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">FRIDAY</td>
+               <td id="box1">ICT</td>
+               <td id="box2">ICT</td>
+               <td id="box3">MATHS</td>
+               <td id="blank">---</td>
+               <td id="box4">ENGLISH</td>
+               <td id="box5">SINHALA</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">SATURDAY</td>
+               <td id="box1">PTS</td>
+               <td colspan="3" id="seminar">seminar</td>
+               <td id="box4">ENGLISH</td>
+               <td id="box5">SINHALA</td>
+               <td id="sub2">library</td>
+            </tr>
+         </tbody>
+      </table>
+   </section><br><br>
+
+   <section class="grade05" id="grade05">
+      <header>
+         <h1>Grade 05</h1>
+      </header>
+      <table>
+         <thead>
+            <tr>
+               <td id="sub1">         </td>
+               <td id="sub">8:30-9:30</td>
+               <td id="sub">9:30-10:30</td>
+               <td id="sub">10:30-11:30</td>
+               <td id="sub">11:30-12:30</td>
+               <td id="sub">12:30-2:00</td>
+               <td id="sub">2:00-3:00</td>
+               <td id="sub">3:00-4:00</td>
+               <td id="sub">4:00-5:00</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td id="sub">MONDAY</td>
+               <td id="blank">---</td>
+               <td id="box1">ICT</td>
+               <td id="box2">MATHS</td>
+               <td id="box3">ENGLISH</td>
+               <td rowspan="6">L<br>U<br>N<br>C<br>H
+               <td id="box4">SINHALA</td>
+               <td id="box5">PTS</td>
+               <td id="s">counselling class</td>
+            </tr>
+            <tr>
+               <td id="sub">TUESDAY</td>
+               <td id="box1">ICT</td>
+               <td id="box2">MATHS</td>
+               <td id="box3">ENGLISH</td>
+               <td id="blank">---</td>
+               <td id="box2">MATHS</td>
+               <td id="box2">SINHALA</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">WEDNESDAY</td>
+               <td id="box1">ICT</td>
+               <td id="box2">MATHS</td>
+               <td id="box5">SWA</td>
+               <td id="blank">---</td>
+               <td colspan="3"id="sub3" >LAB</td>
+            </tr>
+            <tr>
+               <td id="sub">THURSDAY</td>
+               <td id="box1">ICT</td>
+               <td id="box2">MATHS</td>
+               <td id="box3">ENGLISH</td>
+               <td id="blank">---</td>
+               <td id="box2">MATHS</td>
+               <td id="box2">MATHS</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">FRIDAY</td>
+               <td id="box1">MATHS</td>
+               <td id="box2">MATHS</td>
+               <td id="box3">ENGLISH</td>
+               <td id="blank">---</td>
+               <td id="box4">SINHALA</td>
+               <td id="box5">PTS</td>
+               <td id="sub2">library</td>
+            </tr>
+            <tr>
+               <td id="sub">SATURDAY</td>
+               <td id="box1">ICT</td>
+               <td colspan="3" id="seminar">seminar</td>
+               <td id="box4">SINHALA</td>
+               <td id="box5">PTS</td>
+               <td id="sub2">library</td>
+            </tr>
+         </tbody>
+      </table></section><br>
+
+</body>
+</html>
