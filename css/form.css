@@ -27,7 +27,7 @@
 }
 
 .container .content h3 span{
-   background: #05037c;
+   background: #020060;
    color:#fff;
    border-radius: 5px;
    padding:0 15px;
@@ -39,7 +39,7 @@
 }
 
 .container .content h1 span{
-   color:#05037c;
+   color:#020060;
 }
 
 .container .content p{
@@ -58,7 +58,7 @@
 }
 
 .container .content .btn:hover{
-   background: #05037c;
+   background: #020060;
 }
 
 .form-container{
@@ -104,14 +104,14 @@
 
 .form-container form .form-btn{
    background: #fbd0d9;
-   color:#05037c;
+   color:#020060;
    text-transform: capitalize;
    font-size: 20px;
    cursor: pointer;
 }
 
 .form-container form .form-btn:hover{
-   background: #05037c;
+   background: #020060;
    color:#fff;
 }
 
@@ -122,13 +122,13 @@
 }
 
 .form-container form p a{
-   color:#05037c;
+   color:#020060;
 }
 
 .form-container form .error-msg{
    margin:10px 0;
    display: block;
-   background: #05037c;
+   background: #020060;
    color:#fff;
    border-radius: 5px;
    font-size: 20px;
